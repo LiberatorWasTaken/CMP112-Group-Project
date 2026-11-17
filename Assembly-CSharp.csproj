@@ -65,7 +65,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\Unity 6000.5.3f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\KillZone.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\SavePos.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Rotator.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\FallPlat.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\WallMovable.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Controller\CameraManager.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Pendulum.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Bounce.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\MovableObs.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Controller\CharacterControls.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Starter Assets\Sample\Environment\Shaders\Built-in_RP\Triplanar.shader" />

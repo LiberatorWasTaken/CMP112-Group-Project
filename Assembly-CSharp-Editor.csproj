@@ -1348,6 +1348,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Editor.Overrides">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll</HintPath>
       <Private>False</Private>
@@ -1404,8 +1408,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cinemachine.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.UnifiedRayTracing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.UnifiedRayTracing.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
@@ -1540,6 +1552,14 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Settings.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
@@ -1549,6 +1569,18 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{6DF3683F-5FD3-0857-774F-940943F567C3}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.StarterAssets.csproj">
+      <Project>{FAE2F697-2CEB-0DD7-8528-EBE44B852999}</Project>
+      <Name>Unity.StarterAssets</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.StarterAssets.Editor.csproj">
+      <Project>{1346B30B-5704-5189-078F-5426E06A4890}</Project>
+      <Name>Unity.StarterAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="URPWizard.csproj">
+      <Project>{EE0B8B18-CA8C-E4B2-6E6D-E729168A237E}</Project>
+      <Name>URPWizard</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
